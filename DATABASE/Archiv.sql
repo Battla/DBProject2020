@@ -1,7 +1,0 @@
-USE krankenhaus;
-
-DROP TABLE IF EXISTS Archiv;
-
-CREATE TABLE IF NOT EXISTS Archiv(
-
-);
