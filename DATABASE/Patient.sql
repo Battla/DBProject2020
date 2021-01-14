@@ -3,16 +3,14 @@ USE krankenhaus;
 DROP TABLE IF EXISTS patient;
 
 CREATE TABLE IF NOT EXISTS patient(
-    Ankunft DATE,
-    Entlassung DATE,
-    Medikamente INT,
-    Station INT,
-    Zimmer  INT,
-    Bett    INT,
-    Geschlecht  VARCHAR(1),
-    DiagnoseNeu VARCHAR(255),
-    DiagnoseAlt VARCHAR(255),
-    PatientenID INT AUTO_INCREMENT,
+  PatientenNr INT AUTO_INCREMENT,
+  Status ENUM(''),
+  Geschlecht VARCHAR(2),
+  Vorname VARCHAR(255),
+  Nachname VARCHAR(255),
+  Titel VARCHAR(5),
+  Mail VARCHAR(255),
+  Geburtsdatum DATE,
 
-    PRIMARY KEY (PatientenID)
+  PRIMARY KEY (PatientenNr)
 );
