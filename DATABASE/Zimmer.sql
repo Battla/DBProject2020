@@ -1,11 +1,13 @@
 USE krankenhaus;
 
-DROP TABLE IF EXISTS zimmer;
+DROP TABLE IF EXISTS Zimmer;
 
-CREATE TABLE IF NOT EXISTS zimmer(
-    ZimmerID INT AUTO_INCREMENT,
-    Sation  INT,
-    Betten INT,
+CREATE TABLE IF NOT EXISTS Zimmer(
+    Stationsnummer INT,
+    Zimmernummer INT,
+    Anz_Betten  INT,
+    Belegte_Betten INT,
+    Zimmertyp VARCHAR(256),
 
-    PRIMARY KEY (ZimmerID)
+    PRIMARY KEY (Zimmernummer, Stationsnummer)
 );

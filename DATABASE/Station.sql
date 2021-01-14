@@ -3,14 +3,10 @@ USE krankenhaus;
 DROP TABLE IF EXISTS station;
 
 CREATE TABLE IF NOT EXISTS station(
-    Fachrichtung VARCHAR(255),
-    Patient    INT,
-    BettNr     INT,
-    StationsID INT,
-    Oberarzt   INT,
-    Leitung    INT,
+    Stationsnummer INT,
+    Anz_Zimmer INT,
 
-    PRIMARY KEY (StationsID)
+    PRIMARY KEY(Stationsnummer)
 );
 
 /*Bei Oberarzt/Leitung(Pflege) stellt sich die Frage was genau damit gemeint ist. Ist das die Anzahl
