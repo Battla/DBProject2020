@@ -9,5 +9,3 @@ CREATE TABLE IF NOT EXISTS station(
     PRIMARY KEY(Stationsnummer)
 );
 
-/*Bei Oberarzt/Leitung(Pflege) stellt sich die Frage was genau damit gemeint ist. Ist das die Anzahl
-  oder sind das die Fremdschlüssel zu Pfleger/Arzt */

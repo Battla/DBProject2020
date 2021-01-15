@@ -1,11 +1,13 @@
 USE Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS Angestellter(
-    PersonalSSN INT UNIQUE AUTO_INCREMENT, /* Ist Unique + AutoIncrement doppelt? */
+    PersonalSSN INT AUTO_INCREMENT,
     Vorname VARCHAR(255),
     Nachname VARCHAR(255),
-    Titel VARCHAR(6) ,   /*könnten wir auch als Enum benutzten, da es nur eine Liste von Titeln gibt*/
-    Position VARCHAR(255),
+    Titel VARCHAR(6),
+    Straße VARCHAR(255),
+    Hausnummer VARCHAR(4),
+    PLZ VARCHAR(6),
     Stellentyp VARCHAR(255),
     Gehalt DECIMAL(4,2),
     Station INT,
