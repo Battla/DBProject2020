@@ -1,4 +1,4 @@
-use krankenhaus;
+use Krankenhaus;
 
 create table if not exists Qualifikation(
     Qualifikation VARCHAR(255),

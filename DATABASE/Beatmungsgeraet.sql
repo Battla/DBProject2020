@@ -1,4 +1,4 @@
-use krankenhaus;
+use Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS Beatmungsgeraet (
     BGeraeteID INT AUTO_INCREMENT,

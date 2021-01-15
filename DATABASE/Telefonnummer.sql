@@ -1,6 +1,6 @@
-use krankenhaus;
+use Krankenhaus;
 
-create table if not exists telefonnummer(
+create table if not exists Telefonnummer(
     Telefonnummer VARCHAR(255),
     SSN VARCHAR(255),
 

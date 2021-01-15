@@ -1,8 +1,8 @@
-use krankenhaus;
+use Krankenhaus;
 
-create table if not exists betreut(
+create table if not exists Betreut(
     PSSN INT,
     PatientenNr INT,
 
-    PRIMARY KEY (PSSN)
+    PRIMARY KEY (PSSN, PatientenNr)
 );

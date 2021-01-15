@@ -1,4 +1,4 @@
-use krankenhaus;
+use Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS MRT (
     Aktenzeichen INT AUTO_INCREMENT,

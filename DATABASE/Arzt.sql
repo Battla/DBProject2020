@@ -1,4 +1,4 @@
-use krankenhaus;
+use Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS Arzt (
   PersonalSSN INT AUTO_INCREMENT,

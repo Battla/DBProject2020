@@ -1,4 +1,4 @@
-USE krankenhaus;
+USE Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS Geraete(
     GeraeteID INT AUTO_INCREMENT,

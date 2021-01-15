@@ -1,6 +1,6 @@
-use krankenhaus;
+use Krankenhaus;
 
-create table if not exists studenteninfos(
+create table if not exists Studenten_Informationen(
     MatrikelNR INT,
     Abschlussart ENUM('Bachelor', 'Master'),
     Abschlussjahr DATE,

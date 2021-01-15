@@ -1,4 +1,4 @@
-USE krankenhaus;
+USE Krankenhaus;
 
 DROP TABLE IF EXISTS Untersuchung;
 
