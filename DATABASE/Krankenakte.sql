@@ -1,6 +1,6 @@
 use Krankenhaus;
 
-CREATE TABLE IF NOT EXISTS MRT (
+CREATE TABLE IF NOT EXISTS Krankenakte (
     Aktenzeichen INT AUTO_INCREMENT,
     Patientennummer INT,
 
