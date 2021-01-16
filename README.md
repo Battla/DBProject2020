@@ -1,7 +1,7 @@
 # DBProject2020
 Bearbeitung der gestellten Aufgaben am Beispiel eines Krankenhauses
 
-##Gruppe
+## Gruppe
 
 * Christian Voth
 * Lennart Eikens
@@ -10,7 +10,7 @@ Bearbeitung der gestellten Aufgaben am Beispiel eines Krankenhauses
 * Lars Batterham
 
 
-##Aufgabenliste
+## Aufgabenliste
 - [x] ER-Diagramm
 - [x] SQL
     - [ ] Insert
