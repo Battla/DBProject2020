@@ -7,7 +7,7 @@ INSERT INTO station(Stationsnummer, Bezeichnung, Anz_Zimmer, Leitung, Leitung_Pf
 VALUES (1, 'Radiologie', 6, 1, '');
 
 INSERT INTO station(Stationsnummer, Bezeichnung, Anz_Zimmer, Leitung, Leitung_Pfleger)
-VALUES (2, 'Hals_Nasen_Ohren', 3, 2, '');
+VALUES (2, 'Hals Nasen Ohren', 3, 2, '');
 
 INSERT INTO station(Stationsnummer, Bezeichnung, Anz_Zimmer, Leitung, Leitung_Pfleger)
 VALUES (3, 'Chirurgie', 5, 4, '');
