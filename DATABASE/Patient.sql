@@ -9,11 +9,12 @@ CREATE TABLE IF NOT EXISTS Patient(
   Vorname VARCHAR(255),
   Nachname VARCHAR(255),
   Titel VARCHAR(5),
-  Straße VARCHAR(255),
+  Strasse VARCHAR(255),
   Hausnummer VARCHAR(4),
   PLZ VARCHAR(6),
   Mail VARCHAR(255),
   Geburtsdatum DATE,
+  Station INT,
 
   PRIMARY KEY (PatientenNr)
 );

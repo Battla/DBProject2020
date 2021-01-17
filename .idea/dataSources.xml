@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="f1711da2-aba9-42d0-9c38-8b3fe4d36b12">
-      <driver-ref>mariadb</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="MariaDB - @localhost" uuid="e737c612-c3af-42cc-9470-44d038bc0113">
+    <data-source source="LOCAL" name="@localhost" uuid="03895224-8af0-4053-a35c-bcdfcd7d9259">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
