@@ -3,6 +3,7 @@ INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Ste
 VALUES('Jan', 'Studentson', NULL, 'Studentenallee', 1, 48529, 'Studentische_Hilfskräfte', 1, 1, '1996-03-11', 'JStudentson@Krankenhaus.de');
 INSERT INTO Studentische_Hilfskraft(PersonalSSN, Ausbilder, Arbeitsstunden, Matrikelnummer)
 VALUES(LAST_INSERT_ID(), 1,30, 1808 );
+INSERT INTO
 
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
 VALUES('Janine', 'Studentinson', NULL, 'Studentenallee', 1, 48529, 'Studentische_Hilfskräfte', 1, 1, '1997-09-02', 'JStudentinson@krankenhaus.de');
