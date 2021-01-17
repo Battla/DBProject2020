@@ -1,33 +1,33 @@
 USE krankenhaus;
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('XYGDFS', '');
+VALUES('XYGDFS', '1');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('DGHFGW', '');
+VALUES('DGHFGW', '2');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('GDUHCA', '');
+VALUES('GDUHCA', '3');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('HIDFKH', '');
+VALUES('HIDFKH', '4');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('HDOLKR', '');
+VALUES('HDOLKR', '5');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('LIPDSU', '');
+VALUES('LIPDSU', '6');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('IHRFLG', '');
+VALUES('IHRFLG', '7');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('FHASOI', '');
+VALUES('FHASOI', '8');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('UHRLOK', '');
+VALUES('UHRLOK', '9');
 
 INSERT INTO Krankenakte(Aktenzeichen, Patientennummer)
-VALUES('OLWKLG', '');
+VALUES('OLWKLG', '10');
 
 
 
