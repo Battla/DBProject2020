@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS Angestellter(
     Gehalt DECIMAL(9,2),
     Station INT,
     Geburtsdatum DATE,
-
     EMail VARCHAR(255),
 
     PRIMARY KEY(PersonalSSN)
