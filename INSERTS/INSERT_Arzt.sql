@@ -47,7 +47,7 @@ VALUES(LAST_INSERT_ID(), 'Dermatologie');
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
 VALUES('Dimirti', 'Iwanow', 'Dr', 'Offenbacherweg', 19, 49775, 'Arzt', 13, 6, '1985-07-30', 'DIwanow@Krankenhaus.de');
 INSERT INTO arzt(PersonalSSN, Fachrichtung)
-VALUES(LAST_INSERT_ID(), 'Pneumologie');
+VALUES(LAST_INSERT_ID(), 'Inner Medizin');
 
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
 VALUES('Karl-Heinz', 'van Bommel', 'Dr', 'Marktstraße', 105, 49873, 'Arzt', 15, 7, '1976-05-28', 'KvanBommel@Krankenhaus.de');

@@ -63,7 +63,7 @@ INSERT INTO Qualifikation(PflegerSSN, Qualifikation)
 VALUES(LAST_INSERT_ID(), 'Fachkrankenpflegerperson OP');
 
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
-VALUES('Kurt', 'Schumacher', NULL, 'Till-Eulenspiegel-Weg',205, 49887, 'Pflege Azubi', 1040.58, 4, '2003', 'KSchumacher@Krankenhaus.de');
+VALUES('Kurt', 'Schumacher', NULL, 'Till-Eulenspiegel-Weg',205, 49887, 'Pflege Azubi', 1040.58, 4, '2003-01-01', 'KSchumacher@Krankenhaus.de');
 INSERT INTO pfleger(PersonalSSN, Examiniert)
 VALUES(LAST_INSERT_ID(),0);
 INSERT INTO Qualifikation(PflegerSSN, Qualifikation)
@@ -77,7 +77,7 @@ INSERT INTO Qualifikation(PflegerSSN, Qualifikation)
 VALUES(LAST_INSERT_ID(), 'Fachkrankenpflegerperson Radiologie');
 
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
-VALUES('Josephine', 'Maurer', NULL, 'Petunienring',2, 49885, 'Pflege Azubi', 1040.58, 1, '2003', 'JMaurer@Krankenhaus.de');
+VALUES('Josephine', 'Maurer', NULL, 'Petunienring',2, 49885, 'Pflege Azubi', 1040.58, 1, '2003-01-02', 'JMaurer@Krankenhaus.de');
 INSERT INTO pfleger(PersonalSSN, Examiniert)
 VALUES(LAST_INSERT_ID(),1);
 INSERT INTO Qualifikation(PflegerSSN, Qualifikation)
