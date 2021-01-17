@@ -1,7 +1,7 @@
 use Krankenhaus;
 
 CREATE TABLE IF NOT EXISTS Krankenakte (
-    Aktenzeichen INT AUTO_INCREMENT,
+    Aktenzeichen VARCHAR(6),
     Patientennummer INT,
 
     PRIMARY KEY(Aktenzeichen)

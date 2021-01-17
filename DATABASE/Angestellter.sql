@@ -1,5 +1,6 @@
 USE Krankenhaus;
 
+DROP TABLE IF EXISTS Angestellter;
 CREATE TABLE IF NOT EXISTS Angestellter(
     PersonalSSN INT AUTO_INCREMENT,
     Vorname VARCHAR(255),
