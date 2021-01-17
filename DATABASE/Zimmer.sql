@@ -11,3 +11,4 @@ CREATE TABLE IF NOT EXISTS Zimmer(
 
     PRIMARY KEY (Zimmernummer, Stationsnummer)
 );
+

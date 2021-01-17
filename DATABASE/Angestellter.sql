@@ -17,3 +17,4 @@ CREATE TABLE IF NOT EXISTS Angestellter(
 
     PRIMARY KEY(PersonalSSN)
 );
+
