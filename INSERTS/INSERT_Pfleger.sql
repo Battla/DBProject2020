@@ -7,7 +7,7 @@ INSERT INTO Qualifikation(PflegerSSN, Qualifikation)
 VALUES(LAST_INSERT_ID(), 'Altenpfleger*innen');
 
 INSERT INTO angestellter(Vorname, Nachname, Titel, Strasse, Hausnummer, PLZ, Stellentyp, Gehalt, Station, Geburtsdatum, EMail)
-VALUES('Anja', 'Petersen', NULL, 'Serpentinenstraße',298, 43259, 'Pflege', 2598.72, 3, '1991-13-04', 'APetersen@Krankenhaus.de');
+VALUES('Anja', 'Petersen', NULL, 'Serpentinenstraße',298, 43259, 'Pflege', 2598.72, 3, '1991-12-04', 'APetersen@Krankenhaus.de');
 INSERT INTO pfleger(PersonalSSN, Examiniert)
 VALUES(LAST_INSERT_ID(),1);
 INSERT INTO Qualifikation(PflegerSSN, Qualifikation)

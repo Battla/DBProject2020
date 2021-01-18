@@ -33,3 +33,6 @@ VALUES('Behandlung', 'Dorfstraße', 69, 49743, 'weiblich', 'Annalena', 'Hellweg'
 
 INSERT INTO Patient(Status, Strasse, Hausnummer, PLZ, Geschlecht, Vorname, Nachname, Titel, Mail, Geburtsdatum, Station)
 VALUES('Untersuchung', 'Wasserberg', 1 , 49743, 'männlich', 'Peter', 'Parry', NULL, 'HarryPeter@outlook.com','1988-12-04','2');
+
+INSERT INTO Patient(Status, Strasse, Hausnummer, PLZ, Geschlecht, Vorname, Nachname, Titel, Mail, Geburtsdatum, Station)
+VALUES('Untersuchung', 'Eremithenstraße', 33, 41425, 'weiblich', 'Anastasia', 'Petruk', NULL,  'APetruk@Krankenhaus.de', '1988-09-12', 5);
