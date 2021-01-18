@@ -1,4 +1,4 @@
-USE krankenhaus
-SELECT Vorname, Nachname, Strasse, Hausnummer, PLZ
+USE krankenhaus;
+SELECT Station, sum(Gehalt) AS Stationsgehalt
 FROM angestellter
-WHERE Stellentyp = 'Pflege' AND Nachname = 'Müller';
+ORDER BY Station;
